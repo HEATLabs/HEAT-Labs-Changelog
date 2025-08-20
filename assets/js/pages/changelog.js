@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function fetchChangelogData() {
-    const changelogUrl = 'https://raw.githubusercontent.com/HEAT Labs/Website-Configs/refs/heads/main/changelog.json';
+    const changelogUrl = 'https://raw.githubusercontent.com/HEATLabs/Website-Configs/refs/heads/main/changelog.json';
     const changelogContainer = document.getElementById('changelogContainer');
 
     // Show loading state
